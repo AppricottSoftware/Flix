@@ -1,2 +1,4 @@
-# Flix
-Application Debugging and Testing Demo
+# Flix - A Movie Listings Viewing App
+- TheMovieDB
+- YoutubeAPI
+
