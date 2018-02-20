@@ -16,7 +16,7 @@
         android:layout_marginRight="5dp"
         android:layout_marginLeft="10dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/flicks_backdrop_placeholder" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/tvTitle"

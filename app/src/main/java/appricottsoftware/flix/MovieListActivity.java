@@ -44,6 +44,18 @@ public class MovieListActivity extends AppCompatActivity {
         client = new AsyncHttpClient(); // Initialize the client
         movies = new ArrayList<>(); // Initialize the list of movies
 
+//        movies.size();
+//        int extra = 999;
+//        int numer = 4;
+//        int denom = 0;
+//        try {
+//            int sol = numer/denom;
+//        } catch (Exception e) {
+//            Log.e(TAG, "onCreate" + extra, e);
+//            //e.printStackTrace();
+//        }
+
+
         // Resolve the recycler view and connect a layout manager and the adapter
         adapter = new MovieAdapter(movies); // Initialize the adapter - movies cannot be reinitialized after this point
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
