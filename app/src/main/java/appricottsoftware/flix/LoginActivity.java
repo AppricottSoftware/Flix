@@ -20,5 +20,6 @@ public class LoginActivity extends AppCompatActivity {
     public void onClickLogin() {
         Intent i = new Intent(this, MovieListActivity.class);
         startActivity(i);
+        finish();
     }
 }
